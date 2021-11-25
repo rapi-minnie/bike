@@ -1,0 +1,117 @@
+body {
+    color: #383e45;
+    font-size: 0.9rem;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+text-decoration: none;
+color: #333;
+}
+li{
+  list-style: none;
+  padding-right: 30px;
+  line-height: 0;
+}
+
+header{
+  height: 60px;
+}
+#container{
+  width: 60%;
+  margin: 0 auto;
+}
+.header-wrap{
+display: flex;
+}
+
+.header-left {
+  width: 120px;
+  height: auto;
+}
+
+ul{
+  display: flex;
+}
+
+nav{
+  margin: 0 0 0 auto;
+}
+
+.main-visual img{
+  height: 600px;
+  object-fit: cover;
+}
+
+
+.profile{
+display: flex;
+margin: 0 auto;
+justify-content: center;
+  align-items: center;
+}
+
+.profile img{
+  border-radius: 50%;
+  margin-right: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+.middle{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.middle h2{
+  font-size: 32px;
+  border-bottom: 1px solid;
+  display: inline-block;
+}
+.Bicycle{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.images{
+  display:flex;
+
+}
+.image{
+  width: 32%;
+  margin-right: 15px;
+  text-align: center;
+}
+
+footer p{
+  font-size: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+   #container{
+     width: 100%;
+   }
+  .header-left img{
+    width: 80px;
+    height: auto;
+  }
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile img{
+    margin-right: 0;
+    text-align: center;
+  }
+  .images {
+    flex-direction: column;
+  }
+  .image{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-right: 0;
+  }
+}
